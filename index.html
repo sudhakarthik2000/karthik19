@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .md{
+                /* border: 2px solid black; */
+                height: 350px;
+                width: 350px;
+                display: grid;
+                gap: 8px;
+                margin-left: 500px;
+                margin-top: 100px;
+            }
+            .cd{
+                border: 1px solid black;
+
+            }
+            .cd1{
+                grid-column: 1/4;
+                background-color: aqua;
+                text-align: center;
+                
+            }
+            .cd2{
+                grid-column: 1/4;
+                background-color: greenyellow;
+                text-align: center;
+            }
+            .cd3{
+                grid-row: 3/7;
+                background-color: aquamarine;
+                text-align: center;
+            }
+            .cd4{
+                grid-column: 2/4;
+                grid-row: 3/5;
+                background-color: beige;
+                text-align: center;
+            }
+            .cd5{
+                grid-column:2/4 ;
+                grid-row: 5/7;
+                background-color: brown;
+                text-align: center;
+
+            }
+            .cd6{
+                grid-column: 1/4;
+                background-color: blueviolet;
+                text-align: center;
+            }
+
+        </style>
+
+    </head>
+    <body style="background-color: azure;">
+     <div class="md">
+        <div class="cd cd1">Header</div>
+        <div class="cd cd2">Navigation</div>
+        <div class="cd cd3">Aside</div>
+        <div class="cd cd4">Content</div>
+        <div class="cd cd5">Section</div>
+        <div class="cd cd6">Footer</div>
+
+     </div>
+
+    </body>
+</html>
